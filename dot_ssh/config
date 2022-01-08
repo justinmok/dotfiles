@@ -24,6 +24,7 @@ Host openwrt
 	IdentityFile ~/.ssh/justin.pem
 
 Host textbook
+	User user
 	HostName textbook.internal.pineapple.lan
 
 Host bigbox
