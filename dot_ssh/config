@@ -1,0 +1,33 @@
+Host aws
+	HostName 3.131.230.135
+	User ubuntu
+	IdentityFile ~/.ssh/justin.pem
+
+Host oracle
+	HostName 152.67.230.106
+	User ubuntu
+	IdentityFile ~/.ssh/justin.pem
+
+Host oraclearm
+	HostName 129.159.34.180
+	User ubuntu
+	IdentityFile ~/.ssh/justin.pem
+
+Host gcp
+	HostName 34.127.38.134
+	User justin
+	IdentityFile ~/.ssh/justin.pem
+
+Host openwrt
+	HostName 192.168.1.253
+	User justin
+	IdentityFile ~/.ssh/justin.pem
+
+Host textbook
+	HostName textbook.internal.pineapple.lan
+
+Host bigbox
+	HostName bigbox.internal.pineapple.lan
+Host *
+	User justin
+	IdentityFile ~/.ssh/justin.pem
